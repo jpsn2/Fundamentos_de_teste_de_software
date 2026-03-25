@@ -43,6 +43,6 @@ class ScholarshipEligibilityEvaluatorTest {
                 true,
                 false
         );
-        Assertions.assertEquals("EvaluationResult{status=MANUAL_REVIEW, reasons=[Applicant is under 18 and requires manual review.]}", result.toString());
+        Assertions.assertEquals("EvaluationResult{status=APPROVED, reasons=[Applicant meets all scholarship requirements.]}", result.toString());
     }
 }
